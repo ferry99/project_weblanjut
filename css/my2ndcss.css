@@ -1,0 +1,138 @@
+#headerbg{
+	background-image: url("../img/background.jpg");
+	background-size: 1366px 150px;
+    background-repeat: no-repeat;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 1348px;
+	height: 150px;
+}
+
+#header{
+	background-image: url("../img/header2.png");
+	 background-size: 1366px 75px;
+    background-repeat: no-repeat;
+	position: fixed;
+	top:100px;
+	left: 0px;
+	width: 1348px;
+	height: 100px;
+}
+
+#menu1 {
+	text-decoration: none;
+	position:absolute;
+	width: 100px;
+	left: 100px;
+	top: 25px;
+	color: white;
+}
+
+#menu2 {
+	text-decoration: none;
+	position:absolute;
+	width: 100px;
+	left: 260px;
+	top: 25px;
+	color: white;
+}
+
+
+#menu3 {
+	text-decoration: none;
+	position:absolute;
+	width: 100px;
+	left: 1050px;
+	top: 25px;
+	color: white;
+}
+
+
+#menu4 {
+	text-decoration: none;
+	position:absolute;
+	width: 100px;
+	left: 1250px;
+	top: 25px;
+	color: white;
+}
+
+#left{
+	background-image: url("../img/Kiri.png");
+	background-size: 100px 500px;
+    background-repeat: no-repeat;
+	position: fixed;
+	top:160px;
+	left: -15px;
+	width:100px ;
+	height:500px;
+}
+
+
+#right{
+	background-image: url("../img/Kanan.png");
+	background-size: 100px 500px;
+    background-repeat: no-repeat;
+	position: fixed;
+	top:160px;
+	left: 1265px;
+	width:100px ;
+	height:500px;
+}
+
+.container{
+	padding: 20px;
+	background-color: gray;
+	position: static;	
+	margin-top:200px;
+	margin-left: 85px;	
+	width: 1130px;
+}
+
+
+.container #content{
+	background-color: red;
+	height: 400px;
+	padding: 20px;
+}
+
+.container #related{
+	background-color: blue;
+	padding: 20px;
+
+}
+
+.container .t_related{
+	width: 250px;
+
+}
+
+.container .t_related td {	
+	padding: 20px;
+}
+
+.footer{
+	background-color: yellow;
+	padding: 20px;
+	position: static;	
+	margin-left: 85px;	
+	width: 1130px;
+	height: 200px;
+}
+
+
+.footer #panel{
+	color:#FFA500;
+	float:left;
+	background-color: gray;
+	width: 300px;
+	height: 200px;
+}
+
+.footer #panel1{
+	background-color: gray;
+	width: 300px;
+	height: 200px;
+	margin-left: 500px;
+}
